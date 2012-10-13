@@ -1,0 +1,5 @@
+Upload the files to a webserver running PHP (tested on Apache 2.2.17 and
+PHP 5.2.17) and visit the URL in your browser. As far as I can tell this
+doesn't require any extra librarys/modules but this was developed under my
+production server with various extras so I can't confirm. As of 3.0
+Advanced also requires MySQL.

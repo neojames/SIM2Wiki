@@ -1,0 +1,23 @@
+SIM2Wiki (3.0); urgency=high
+
+  * Final release.
+  
+ -- James Bolton <neojames11@gmail.com>  Tues, 12 Jul 2012 20:05:00 +0100
+ 
+SIM2Wiki (2.8); urgency=low
+
+  * Most Advanced features ready, slight bug in main pattern match. MUST BE FIXED BEFORE NEXT PHASE!
+  
+ -- James Bolton <neojames11@gmail.com>  Tues, 10 Jul 2012 15:56:00 +0100
+ 
+SIM2Wiki (2.0); urgency=high
+
+  * Added Advanced mode
+  
+ -- James Bolton <neojames11@gmail.com>  Fri, 06 Jul 2012 19:41:00 +0100
+ 
+SIM2Wiki (1.0); urgency=high
+
+  * First Release. (Yes, I know the changelog is in Debian format, I'm used to dealing with it!)
+  
+ -- James Bolton <neojames11@gmail.com>  Fri, 06 Jul 2012 19:02:00 +0100
