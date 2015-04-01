@@ -26,6 +26,20 @@ See http://neojames.me/ for more information
 				
 				return true;
 			}
+			
+			function AdditionalPeople(){
+				if(document.getElementById('form').operation[0].checked == true){
+					document.getElementById('additionalPeople').show();
+				}
+				
+				else
+				
+				if(document.getElementById('form').operation[1].checked == true){
+					document.getElementById('additionalPeople').hide();
+				}
+			}
+				
+			AdditionalPeople();
 		</script>
 	</head>
 	
@@ -51,21 +65,5 @@ See http://neojames.me/ for more information
 			
 		</form>
 		<?php include 'attribution.php'; ?>
-		
-		<script>
-			function AdditionalPeople(){
-				if(document.getElementById('form').operation[0].checked == true){
-					document.getElementById('additionalPeople').show();
-				}
-				
-				else
-				
-				if(document.getElementById('form').operation[1].checked == true){
-					document.getElementById('additionalPeople').hide();
-				}
-				
-			AdditionalPeople();
-		</script>
-		
 	</body>
 </html>
