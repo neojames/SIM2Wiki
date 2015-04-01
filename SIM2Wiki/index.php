@@ -33,11 +33,11 @@ See http://neojames.me/ for more information
 		
 		<form id="form" action="process-advanced.php" onsubmit="return OnSubmitForm();" method="post">
 			<?php if (file_exists('configuration.php'))
-				echo '<input type="radio" name="operation" value="1" checked />Advanced Mode <input type="radio" name="operation" value="2" />Basic Mode';
+				echo '<input type="radio" name="operation" value="1" checked>Advanced Mode <input type="radio" name="operation" value="2">Basic Mode';
 				
 				else
 				
-				echo '<input type="radio" name="operation" disabled="disabled">Advanced Mode</input><input type="radio" name="operation" value="2" checked>Basic Mode</input>';
+				echo '<input type="radio" name="operation" disabled="disabled">Advanced Mode <input type="radio" name="operation" value="2" checked>Basic Mode';
 			?>
    			<br>
 			<textarea name="sim" rows="30" cols="80">Enter SIM here.</textarea>
