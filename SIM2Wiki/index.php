@@ -14,10 +14,13 @@ See http://neojames.me/ for more information
 		<script type="text/javascript">
 			if(window.addEventListener) { // Mozilla, Netscape, Firefox
     			window.addEventListener('load', AdditionalPeople, false);
+    			window.addEventListener('load', TextAreaWidth, false);
+
 			} 
 			
 			else if(window.attachEvent) { // IE
 				window.attachEvent('onload', AdditionalPeople);
+				window.attachEvent('onload', TextAreaWidth);
 			}
 		
 			function OnSubmitForm(){
@@ -45,6 +48,10 @@ See http://neojames.me/ for more information
 				if(document.getElementById('form').operation[1].checked == true){
 					document.getElementById('additionalPeople').style.display = 'none';
 				}
+				
+				function TextAreaWidth(){
+					document.getElementByid('additionalPeople').width = document.getElementByid('sim').width
+				}
 			}
 		</script>
 	</head>
@@ -65,7 +72,7 @@ See http://neojames.me/ for more information
 			<br>
 			<span>Font size (px):</span><input name="font" type="text" value="12"><input type="submit">
 			
-			<div id="additionalPeople">
+			<div id="additionalPeople" style="border:1px solid black;">
 				<h3>Additional People </h3>
 			</div>
 			
