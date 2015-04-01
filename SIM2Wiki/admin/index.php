@@ -25,7 +25,6 @@ See http://neojames.me/ for more information
 		<form action="process.php" method="post">
 		<input name="name" type="text"> <input value="Add Person" type="submit">
 		</form>
-		
 		<h4>View existing people</h4>
 		
 		<form>

@@ -34,7 +34,7 @@ See http://neojames.me/ for more information
 		
 		<form id="form" action="process-advanced.php" onsubmit="return OnSubmitForm();" method="post">
 			<?php if (file_exists('configuration.php'))
-				echo '<input type="radio" name="operation" value="1" checked>Advanced Mode <input type="radio" name="operation" value="2">Basic Mode';
+				echo '<input type="radio" name="operation" value="1"  onclick="AdditionalPeople();" checked>Advanced Mode <input type="radio" name="operation" value="2" onclick="AdditionalPeople();">Basic Mode';
 				
 				else
 				
@@ -44,7 +44,28 @@ See http://neojames.me/ for more information
 			<textarea name="sim" rows="30" cols="80">Enter SIM here.</textarea>
 			<br>
 			<span>Font size (px):</span><input name="font" type="text" value="12"><input type="submit">
+			
+			<div id="additionalPeople">
+				<h3>Additional People </h3>
+			</div>
+			
 		</form>
 		<?php include 'attribution.php'; ?>
+		
+		<script>
+			function AdditionalPeople(){
+				if(document.getElementById('form').operation[0].checked == true){
+					document.getElementById('additionalPeople').show();
+				}
+				
+				else
+				
+				if(document.getElementById('form').operation[1].checked == true){
+					document.getElementById('additionalPeople').hide();
+				}
+				
+			AdditionalPeople();
+		</script>
+		
 	</body>
 </html>
