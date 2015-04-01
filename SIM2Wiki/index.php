@@ -48,10 +48,10 @@ See http://neojames.me/ for more information
 				if(document.getElementById('form').operation[1].checked == true){
 					document.getElementById('additionalPeople').style.display = 'none';
 				}
-				
-				function TextAreaWidth(){
-					document.getElementByid('additionalPeople').width(document.getElementByid('sim').width())
-				}
+			}
+			
+			function TextAreaWidth(){
+				document.getElementByid('additionalPeople').width(document.getElementByid('sim').width())
 			}
 		</script>
 	</head>
