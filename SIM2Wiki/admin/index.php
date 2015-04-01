@@ -8,8 +8,9 @@ See http://neojames.me/ for more information
 	"http://www.w3.org/TR/html4/strict.dtd">
 
 <?php
-	if (is_dir("../installer")){ die('Delete installer please!'); }
-	require '../configuration.php';
+	if (is_dir("../installer")){die('Delete installer please!');}
+	if (file_exists (../configuration.php)){require '../configuration.php';} else {header('Location: '../installer''); die();}
+	}
 ?>
 <html>
 	<head>
