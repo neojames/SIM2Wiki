@@ -32,8 +32,14 @@ See http://neojames.me/ for more information
 		<h2>SIM2Wiki</h2>
 		
 		<form id="form" onsubmit="return OnSubmitForm();" method="post">
-			<input type="radio" name="operation" value="1" checked>Advanced Mode
-   			<input type="radio" name="operation" value="2">Basic Mode
+			<?php if (file_exists('configuration.php'))
+				echo '<input type="radio" name="operation" value="1" checked>Advanced Mode</input>';
+				
+				else
+				
+				echo '<input type="radio" name="operation" value="1" disabled="disabled">Advanced Mode</input>';
+			?>
+   			<input type="radio" name="operation" value="2">Basic Mode</input>
    			<br />
 			<textarea name="sim" rows="30" cols="80">Enter SIM here.</textarea>
 			<br />

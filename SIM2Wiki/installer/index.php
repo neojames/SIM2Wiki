@@ -6,7 +6,7 @@ See http://neojames.me/ for more information
 
 <html>
 	<head>
-		<title>SIM2Wiki -Advanced - Installer</title>
+		<title>SIM2Wiki - Advanced - Installer</title>
 	</head>
 	
 	<body>
