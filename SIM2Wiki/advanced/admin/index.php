@@ -1,7 +1,7 @@
 <!--
 SIM2Wiki by James Bolton.
 Distrubuted under the LGPL
-See http://neojames.allalla.com/ for more information
+See http://neojames.me/ for more information
 -->
 
 <?php
