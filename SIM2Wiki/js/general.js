@@ -27,10 +27,6 @@ function AdditionalPeople(){
 		document.getElementById('additionalPeople').style.display = 'none';
 	}
 }
-		
-function TextAreaWidth(){
-	document.getElementByid('additionalPeople').width() = document.getElementByid('form').style.width();
-}
 			
 if(window.addEventListener) { // Mozilla, Netscape, Firefox
     window.addEventListener('load', AdditionalPeople, false);
