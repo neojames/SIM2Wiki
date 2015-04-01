@@ -27,7 +27,7 @@ See http://neojames.me/ for more information
 	$db = mysql_select_db($database, $link);
 	$query = "SELECT name FROM " . $prefix . ""; 
 	$result = mysql_query($query) or die(mysql_error());
-	$names = array();    // Create Arrays for
+	$namesdb = array();    // Create Arrays for
 	$replaces = array(); // text manipulation.
 	while($row = mysql_fetch_array($result)){
 		$namesdb[] = $row['name'] . ":";				 // Populate
@@ -36,12 +36,14 @@ See http://neojames.me/ for more information
 	
 	$additionalPeopleRaw = isset($_POST['additionalPeople'])?$_POST['additionalPeople']:"";
 	$additionalPeople = explode("\n", str_replace("\r", "", $additionalPeopleRaw));
-		
+	
+	$names = array_merge($namesdb, $additionalPeople);
+	
 	$sim = $_POST['sim']; //Fetches SIM from text box.
 	$sim_wrap = wordwrap($sim, 80, "\n"); //Constrains to 80 columns for readability.
 	$sim_penultimate = str_replace("::", "<nowiki>::</nowiki>", $sim_wrap);
 	
-	$sim_final = str_replace(array_merge($names, $additionalPeople), $replaces, $sim_penultimate); // Bold names
+	$sim_final = str_replace($names, $replaces, $sim_penultimate); // Bold names
 	echo stripslashes($sim_final); //Removes slashes wordwrap() adds example (James\'s).
 ?>
 
