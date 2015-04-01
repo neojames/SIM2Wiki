@@ -30,7 +30,7 @@ See http://neojames.me/ for more information
 			<br>
 			<span>Font size (px):</span><input name="font" type="text" value="12"><input type="submit">
 			
-			<div id="additionalPeople" style="border:1px solid black;">
+			<div id="additionalPeople" style="border:1px solid black;width:577px;">
 				<h4>Additional People </h4>
 				<p> </p>
 			</div>
