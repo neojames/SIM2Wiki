@@ -39,7 +39,6 @@ See http://neojames.me/ for more information
 				
 				echo '<input type="radio" name="operation" disabled="disabled">Advanced Mode</input><input type="radio" name="operation" value="2" checked>Basic Mode</input>';
 			?>
-   			<input type="radio" name="operation" value="2">Basic Mode</input>
    			<br />
 			<textarea name="sim" rows="30" cols="80">Enter SIM here.</textarea>
 			<br />
