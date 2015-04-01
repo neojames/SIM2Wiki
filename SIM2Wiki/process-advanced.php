@@ -4,8 +4,8 @@ Distrubuted under the LGPL
 See http://neojames.me/ for more information
 -->
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
 
 <?php require 'configuration.php'; ?>
 <html>

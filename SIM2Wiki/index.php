@@ -4,8 +4,8 @@ Distrubuted under the LGPL
 See http://neojames.me/ for more information
 -->
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
 
 <html>
 	<head>
@@ -31,7 +31,7 @@ See http://neojames.me/ for more information
 	<body>
 		<h2>SIM2Wiki</h2>
 		
-		<form id="form" onload="return OnSubmitForm();" onsubmit="return OnSubmitForm();" method="post">
+		<form id="form" action="process-advanced.php" onsubmit="return OnSubmitForm();" method="post">
 			<?php if (file_exists('configuration.php'))
 				echo '<input type="radio" name="operation" value="1" checked />Advanced Mode <input type="radio" name="operation" value="2" />Basic Mode';
 				
@@ -39,9 +39,9 @@ See http://neojames.me/ for more information
 				
 				echo '<input type="radio" name="operation" disabled="disabled">Advanced Mode</input><input type="radio" name="operation" value="2" checked>Basic Mode</input>';
 			?>
-   			<br />
+   			<br>
 			<textarea name="sim" rows="30" cols="80">Enter SIM here.</textarea>
-			<br />
+			<br>
 			<span>Font size (px):</span><input name="font" type="text" value="12" /><input type="submit" />
 		</form>
 		<?php include 'attribution.php'; ?>
