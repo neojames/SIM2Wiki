@@ -37,13 +37,13 @@ See http://neojames.me/ for more information
 			
 			function AdditionalPeople(){
 				if(document.getElementById('form').operation[0].checked == true){
-					document.getElementById('additionalPeople').show();
+					$('additionalPeople').show();
 				}
 				
 				else
 				
 				if(document.getElementById('form').operation[1].checked == true){
-					document.getElementById('additionalPeople').hide();
+					$('additionalPeople')('additionalPeople').hide();
 				}
 			}
 		</script>
