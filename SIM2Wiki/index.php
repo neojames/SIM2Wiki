@@ -11,49 +11,7 @@ See http://neojames.me/ for more information
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>SIM2Wiki</title>
-		<script type="text/javascript">
-			if(window.addEventListener) { // Mozilla, Netscape, Firefox
-    			window.addEventListener('load', AdditionalPeople, false);
-    			window.addEventListener('load', TextAreaWidth, false);
-
-			} 
-			
-			else if(window.attachEvent) { // IE
-				window.attachEvent('onload', AdditionalPeople);
-				window.attachEvent('onload', TextAreaWidth);
-			}
-		
-			function OnSubmitForm(){
-				
-				if(document.getElementById('form').operation[0].checked == true){
-					document.getElementById('form').action ="process-advanced.php";
-				}
-				
-				else
-				
-				if(document.getElementById('form').operation[1].checked == true){
-					document.getElementById('form').action ="process-basic.php";
-				}
-				
-				return true;
-			}
-			
-			function AdditionalPeople(){
-				if(document.getElementById('form').operation[0].checked == true){
-					document.getElementById('additionalPeople').style.display = 'block';
-				}
-				
-				else
-				
-				if(document.getElementById('form').operation[1].checked == true){
-					document.getElementById('additionalPeople').style.display = 'none';
-				}
-			}
-			
-			function TextAreaWidth(){
-				document.getElementByid('additionalPeople').width() = document.getElementByid('sim').style.width();
-			}
-		</script>
+		<script type="text/javascript" src="js/general.js"></script>
 	</head>
 	
 	<body>
