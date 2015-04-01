@@ -46,6 +46,6 @@ See http://neojames.me/ for more information
 				?>
 			</table>
 		</form>
-		<?php include 'attribution.php'; ?> SIM2Wiki Version <?php $contents = file("../../version"); $string = implode($contents); print $string; ?> <p>
+		<?php include '../attribution.php'; ?> SIM2Wiki Version <?php $contents = file("../version"); $string = implode($contents); print $string; ?> <p>
 	</body>
 </html>
