@@ -11,7 +11,7 @@ See http://neojames.me/ for more information
 
 <html lang="en">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>SIM2Wiki - Advanced - Results</title>
 	</head>
 	
