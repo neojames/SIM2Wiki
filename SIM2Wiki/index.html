@@ -10,14 +10,14 @@ See http://neojames.me/ for more information
 		<script type="text/javascript">
 			function OnSubmitForm(){
 				
-				if(document.selector.operation[0].checked == true){
-					document.selector.action ="process-advanced.php";
+				if(document.getElementById('form').operation[0].checked == true){
+					document.getElementById('form').action ="process-advanced.php";
 				}
 				
 				else
 				
-				if(document.selector.operation[1].checked == true){
-					document.selector.action ="process-basic.php";
+				if(document.getElementById('form').operation[1].checked == true){
+					document.getElementById('form').action ="process-basic.php";
 				}
 				
 				return true;
@@ -28,7 +28,7 @@ See http://neojames.me/ for more information
 	<body>
 		<h4>SIM2Wiki</h4>
 		
-		<form onsubmit="return OnSubmitForm();" method="post">
+		<form id="form" onsubmit="return OnSubmitForm();" method="post">
 			<input type="radio" name="operation" value="1" checked>Advanced Mode
    			<input type="radio" name="operation" value="2">Basic Mode
    			<br />
