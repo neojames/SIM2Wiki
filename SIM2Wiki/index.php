@@ -37,13 +37,13 @@ See http://neojames.me/ for more information
 			
 			function AdditionalPeople(){
 				if(document.getElementById('form').operation[0].checked == true){
-					$('additionalPeople').show();
+					document.getElementById('additionalPeople').style.display = 'block';
 				}
 				
 				else
 				
 				if(document.getElementById('form').operation[1].checked == true){
-					$('additionalPeople')('additionalPeople').hide();
+					document.getElementById('additionalPeople').style.display = 'none';
 				}
 			}
 		</script>
@@ -54,7 +54,7 @@ See http://neojames.me/ for more information
 		
 		<form id="form" action="process-advanced.php" onsubmit="return OnSubmitForm();" method="post">
 			<?php if (file_exists('configuration.php'))
-				echo '<input type="radio" name="operation" value="1"  onclick="AdditionalPeople();" checked>Advanced Mode <input type="radio" name="operation" value="2" onclick="AdditionalPeople();">Basic Mode';
+				echo '<input type="radio" name="operation" value="1"  onclick="javascript:AdditionalPeople();" checked>Advanced Mode <input type="radio" name="operation" value="2" onclick="javascript:AdditionalPeople();">Basic Mode';
 				
 				else
 				
