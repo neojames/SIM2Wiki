@@ -10,7 +10,7 @@ See http://neojames.me/ for more information
 	</head>
 	
 	<body>
-		<h4>SIM2Wiki - Advanced - Installer</h4>
+		<h2>SIM2Wiki - Advanced - Installer</h2>
 		<form action="process.php" method="post">
 			<table border="0">
 				<tbody>

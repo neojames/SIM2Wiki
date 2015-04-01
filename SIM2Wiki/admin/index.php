@@ -18,7 +18,7 @@ See http://neojames.me/ for more information
 	<body>
 		<h2>SIM2Wiki - Advanced - Admin</h2>
 		<h4>Add a new person</h4>
-		<p><b>Note:</b> Names should be entred in the format used by your sims, E.G on the Discovery-C we require names to be in caps, so the charicter James should be entred as JAMES. Also, plese don't include the colon (:) otherwise the paraser won't rcongnise it.</p>
+		<p><b>Note:</b> Names should be entred in the format used by your sims, E.G the Discovery-C used to require names to be in caps, so the charicter James should be entred as JAMES. Also, plese don't include the colon (:) otherwise the paraser won't rcongnise it.</p>
 		<br />
 		<form action="process.php" method="post">
 		<input name="name" type="text"> <input value="Add Person" type="submit">
