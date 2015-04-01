@@ -4,8 +4,8 @@ Distrubuted under the LGPL
 See http://neojames.me/ for more information
 -->
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-	"http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
 
 <?php
 	if (is_dir("../installer")){die('Delete installer please!');}
@@ -13,6 +13,7 @@ See http://neojames.me/ for more information
 ?>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<title>SIM2Wiki - Admin</title>
 	</head>
 	<body>

@@ -4,8 +4,8 @@ Distrubuted under the LGPL
 See http://neojames.me/ for more information
 -->
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-	"http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
 	<head>
@@ -42,7 +42,7 @@ See http://neojames.me/ for more information
    			<br>
 			<textarea name="sim" rows="30" cols="80">Enter SIM here.</textarea>
 			<br>
-			<span>Font size (px):</span><input name="font" type="text" value="12" /><input type="submit" />
+			<span>Font size (px):</span><input name="font" type="text" value="12"><input type="submit">
 		</form>
 		<?php include 'attribution.php'; ?>
 	</body>
