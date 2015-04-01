@@ -28,11 +28,11 @@ See http://neojames.me/ for more information
    			<br>
 			<textarea name="sim" rows="30" cols="80" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width:100%;">Enter SIM here.</textarea>
 			<br>
-			<span>Font size (px):</span><input name="font" type="text" value="12"><span style="text-align: right"><input type="submit"></span>
+			<span>Font size (px):</span><input name="font" type="text" value="12"><span style="float:right;"><input type="submit"></span>
 			<br>
 			<div id="additionalPeople" style="border:1px solid black;width:100%;">
-				<h4>Additional People </h4>
-				<p> </p>
+				<h4>Additional People (Optional)</h4>
+				<p>Here you can provide a list of additional names to be </p>
 			</div>
 			
 		</form>
