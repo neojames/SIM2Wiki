@@ -50,7 +50,7 @@ See http://neojames.me/ for more information
 				}
 				
 				function TextAreaWidth(){
-					document.getElementByid('additionalPeople').width = document.getElementByid('sim').width
+					document.getElementByid('additionalPeople').width(document.getElementByid('sim').width())
 				}
 			}
 		</script>
@@ -73,7 +73,8 @@ See http://neojames.me/ for more information
 			<span>Font size (px):</span><input name="font" type="text" value="12"><input type="submit">
 			
 			<div id="additionalPeople" style="border:1px solid black;">
-				<h3>Additional People </h3>
+				<h4>Additional People </h4>
+				<p> </p>
 			</div>
 			
 		</form>
