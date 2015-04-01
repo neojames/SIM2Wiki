@@ -34,8 +34,8 @@ See http://neojames.me/ for more information
 		$replaces[] = "'''" . $row['name'] . "''':"; // Arrays
 	}
 	
-	$additionalPeopleRaw = isset($_POST['additionalPeople'])?$_POST['additionalPeople']:"";
-	$additionalPeople = explode("\n", str_replace("\r", "", $additionalPeopleRaw));
+	$additionalPeopleRaw = isset($_POST['additionalNames'])?$_POST['additionalNames']:"";
+	$additionalPeople = explode("\n", str_replace("\r", "", $_POST['additionalNames']));
 	
 	$names = array_merge($namesdb, $additionalPeople);
 	
