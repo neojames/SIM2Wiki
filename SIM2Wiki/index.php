@@ -51,7 +51,7 @@ See http://neojames.me/ for more information
 			}
 			
 			function TextAreaWidth(){
-				document.getElementByid('additionalPeople').width() = document.getElementByid('sim').width();
+				document.getElementByid('additionalPeople').width() = document.getElementByid('sim').style.width();
 			}
 		</script>
 	</head>
