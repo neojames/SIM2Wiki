@@ -8,7 +8,8 @@ See http://neojames.me/ for more information
 	"http://www.w3.org/TR/html4/loose.dtd">
 	
 <?php require 'configuration.php'; ?>
-<html>
+
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<title>SIM2Wiki - Advanced - Results</title>

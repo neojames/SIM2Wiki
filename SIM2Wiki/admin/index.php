@@ -11,7 +11,8 @@ See http://neojames.me/ for more information
 	if (is_dir("../installer")){die('Delete installer please!');}
 	if (file_exists('../configuration.php')){require '../configuration.php';} else {header('Location: ../installer'); die();}
 ?>
-<html>
+
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<title>SIM2Wiki - Admin</title>
