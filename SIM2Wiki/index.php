@@ -27,7 +27,7 @@ See http://neojames.me/ for more information
 			?>
    			<br><br>
 			<textarea name="sim" rows="30" cols="80" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width:100%;">Enter SIM here.</textarea>
-			<br>
+			<br><br>
 			<span>Font size (px):</span><input name="font" type="text" value="12"><span style="float:right;"><input type="submit"></span>
 			<br><br>
 			<div id="additionalPeople" style="border:1px solid black;width:100%;">

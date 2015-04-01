@@ -27,12 +27,17 @@ See http://neojames.me/ for more information
 	$db = mysql_select_db($database, $link);
 	$query = "SELECT name FROM " . $prefix . ""; 
 	$result = mysql_query($query) or die(mysql_error());
-	$names = array();    // Create Arrays for
+	$namesdb = array();    // Create Arrays for
 	$replaces = array(); // text manipulation.
 	while($row = mysql_fetch_array($result)){
-		$names[] = $row['name'] . ":";				 // Populate
+		$namesdb[] = $row['name'] . ":";				 // Populate
 		$replaces[] = "'''" . $row['name'] . "''':"; // Arrays
 	}
+	
+	$additionalPeopleRaw = isset($_POST['additionalPeople'])?$_POST['additionalPeople']:"";
+	$additionalPeople = explode("\n", str_replace("\r", "", $additionalPeopleRaw));
+	
+	$names = array array_merge($namesdb, $additionalPeople);
 	
 	$sim = $_POST['sim']; //Fetches SIM from text box.
 	$sim_wrap = wordwrap($sim, 80, "\n"); //Constrains to 80 columns for readability.
