@@ -1,1 +1,1 @@
-<?php echo '<p><a href="https://github.com/neojames/SIM2Wiki">SIM2Wiki</a> is distributed under the <a href="http://www.gnu.org/licenses/lgpl.html">LGPL</a>.<p>'; ?>
+<?php echo '<p><a href="https://github.com/neojames/SIM2Wiki">SIM2Wiki</a> is distributed under the <a href="http://www.gnu.org/licenses/lgpl.html">LGPL</a>. <b>Powered by <a hred="http://en.wikipedia.org/wiki/Zefram_Cochrane">Zefram Cochrane</b><p>'; ?>
