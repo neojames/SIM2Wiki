@@ -12,6 +12,14 @@ See http://neojames.me/ for more information
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>SIM2Wiki</title>
 		<script type="text/javascript">
+			if(window.addEventListener) { // Mozilla, Netscape, Firefox
+    			window.addEventListener('load', AdditionalPeople, false);
+			} 
+			
+			else if(window.attachEvent) { // IE
+				window.attachEvent('onload', AdditionalPeople);
+			}
+		
 			function OnSubmitForm(){
 				
 				if(document.getElementById('form').operation[0].checked == true){
@@ -38,8 +46,6 @@ See http://neojames.me/ for more information
 					document.getElementById('additionalPeople').hide();
 				}
 			}
-				
-			AdditionalPeople();
 		</script>
 	</head>
 	
