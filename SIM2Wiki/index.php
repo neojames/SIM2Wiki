@@ -17,7 +17,7 @@ See http://neojames.me/ for more information
 	<body>
 		<h2>SIM2Wiki</h2>
 		
-		<form id="form" action="process-advanced.php" onsubmit="return OnSubmitForm();" method="post" width="1000px">
+		<form id="form" action="process-advanced.php" onsubmit="return OnSubmitForm();" method="post" style="width:1000px">
 			<?php if (file_exists('configuration.php'))
 				echo '<input type="radio" name="operation" value="1"  onclick="javascript:AdditionalPeople();" checked>Advanced Mode <input type="radio" name="operation" value="2" onclick="javascript:AdditionalPeople();">Basic Mode';
 				
