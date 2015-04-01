@@ -33,11 +33,11 @@ See http://neojames.me/ for more information
 		
 		<form id="form" onsubmit="return OnSubmitForm();" method="post">
 			<?php if (file_exists('configuration.php'))
-				echo '<input type="radio" name="operation" value="1" checked>Advanced Mode</input>';
+				echo '<input type="radio" name="operation" value="1" checked>Advanced Mode</input><input type="radio" name="operation" value="2">Basic Mode</input>';
 				
 				else
 				
-				echo '<input type="radio" name="operation" value="1" disabled="disabled">Advanced Mode</input>';
+				echo '<input type="radio" name="operation" disabled="disabled">Advanced Mode</input><input type="radio" name="operation" value="2" checked>Basic Mode</input>';
 			?>
    			<input type="radio" name="operation" value="2">Basic Mode</input>
    			<br />
