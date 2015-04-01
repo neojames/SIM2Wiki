@@ -43,6 +43,6 @@ See http://neojames.me/ for more information
 				?>
 			</table>
 		</form>
-		<p>SIM2Wiki is made by <a href="http://neojames.allalla.com/">James Bolton</a> and distributed under the <a href="http://www.gnu.org/licenses/lgpl.html">LGPL</a>. SIM2Wiki Version <?php $contents = file("../../version"); $string = implode($contents); print $string; ?> <p>
+		<?php include 'attribution.php'; ?> SIM2Wiki Version <?php $contents = file("../../version"); $string = implode($contents); print $string; ?> <p>
 	</body>
 </html>

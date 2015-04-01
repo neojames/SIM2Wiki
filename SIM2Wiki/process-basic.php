@@ -26,6 +26,6 @@ See http://neojames.me/ for more information
 			<br />
 			<input type="button" value="Back" onClick="history.go(-1);return true;">
 		</form>
-		<p>SIM2Wiki is made by <a href="http://neojames.allalla.com/">James Bolton</a> and distributed under the <a href="http://www.gnu.org/licenses/lgpl.html">LGPL</a>.<p>
+		<?php include 'attribution.php'; ?>
 	</body>
 </html>
