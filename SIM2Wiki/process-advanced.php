@@ -14,7 +14,7 @@ See http://neojames.me/ for more information
 	</head>
 	
 	<body>
-		<h4>SIM2Wiki - Advanced - Results</h4>
+		<h2>SIM2Wiki - Advanced - Results</h2>
 		<form>
 <textarea cols="80" rows="30" readonly="yes">
 <table width="70%">

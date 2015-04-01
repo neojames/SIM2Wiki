@@ -4,6 +4,9 @@ Distrubuted under the LGPL
 See http://neojames.me/ for more information
 -->
 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
 <html>
 	<head>
 		<title>SIM2Wiki</title>
@@ -26,7 +29,7 @@ See http://neojames.me/ for more information
 	</head>
 	
 	<body>
-		<h4>SIM2Wiki</h4>
+		<h2>SIM2Wiki</h2>
 		
 		<form id="form" onsubmit="return OnSubmitForm();" method="post">
 			<input type="radio" name="operation" value="1" checked>Advanced Mode

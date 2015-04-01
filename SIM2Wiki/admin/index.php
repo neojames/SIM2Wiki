@@ -13,18 +13,18 @@ See http://neojames.me/ for more information
 ?>
 <html>
 	<head>
-		<title>SIM2Wiki - Advanced - Admin</title>
+		<title>SIM2Wiki - Admin</title>
 	</head>
 	<body>
-		<h4>SIM2Wiki - Advanced - Admin</h4>
-		<h5>Add a new person</h5>
+		<h2>SIM2Wiki - Advanced - Admin</h2>
+		<h4>Add a new person</h4>
 		<p><b>Note:</b> Names should be entred in the format used by your sims, E.G on the Discovery-C we require names to be in caps, so the charicter James should be entred as JAMES. Also, plese don't include the colon (:) otherwise the paraser won't rcongnise it.</p>
 		<br />
 		<form action="process.php" method="post">
 		<input name="name" type="text"> <input value="Add Person" type="submit">
 		</form>
 		
-		<h5>View existing people</h5>
+		<h4>View existing people</h4>
 		
 		<form>
 			<table>
