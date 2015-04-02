@@ -41,8 +41,8 @@ See http://neojames.me/ for more information
 	$replacesAdditionalPeople = array();
 	$additionalPeople = array();
 	foreach($additionalPeopleNoColon as $key => $value){
-		$replacesAdditionalPeople[] = $item . ":";
-		$additionalPeople[] = "'''" . $item . "''':";
+		$replacesAdditionalPeople[] = $value . ":";
+		$additionalPeople[] = "'''" . $value . "''':";
 	}
 	
 	print_r($replacesAdditionalPeople);
