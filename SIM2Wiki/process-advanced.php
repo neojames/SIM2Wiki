@@ -33,9 +33,6 @@ See http://neojames.me/ for more information
 		$replaces[] = "'''" . $value . "''':";
 	}
 	
-	print_r(names);
-	print_r(replaces);
-	
 	$sim = $_POST['sim']; //Fetches SIM from text box.
 	$sim_wrap = wordwrap($sim, 80, "\n"); //Constrains to 80 columns for readability.
 	$sim_penultimate = str_replace("::", "<nowiki>::</nowiki>", $sim_wrap);

@@ -16,7 +16,7 @@ function OnSubmitForm(){
 	return true;
 }
 			
-function AdditionalPeople(){
+function People(){
 	if(document.getElementById('form').operation[0].checked == true){
 		document.getElementById('additionalPeople').style.display = 'block';
 }
@@ -43,10 +43,10 @@ function toggleVisibility(obj){
 //Load schedular	
 		
 if(window.addEventListener) { // Mozilla, Netscape, Firefox
-    window.addEventListener('load', AdditionalPeople, false);
+    window.addEventListener('load', People, false);
 
 } 
 			
 else if(window.attachEvent) { // IE
-	window.attachEvent('onload', AdditionalPeople);
+	window.attachEvent('onload', People);
 }

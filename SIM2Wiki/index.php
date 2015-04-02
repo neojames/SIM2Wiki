@@ -18,13 +18,8 @@ See http://neojames.me/ for more information
 		<h2>SIM2Wiki</h2>
 		
 		<form id="form" action="process-advanced.php" onsubmit="return OnSubmitForm();" method="post" style="width:800px">
-			<?php if (file_exists('configuration.php'))
-				echo '<input type="radio" name="operation" value="1"  onclick="javascript:AdditionalPeople();" checked>Advanced Mode <input type="radio" name="operation" value="2" onclick="javascript:AdditionalPeople();">Basic Mode';
-				
-				else
-				
-				echo '<input type="radio" name="operation" disabled="disabled">Advanced Mode <input type="radio" name="operation" value="2" checked>Basic Mode';
-			?>
+			<input type="radio" name="operation" value="1"  onclick="javascript:People();" checked>Advanced Mode
+			<input type="radio" name="operation" value="2" onclick="javascript:People();">Basic Mode';
    			<br><br>
 			<textarea name="sim" rows="30" cols="80" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width:100%;">Enter SIM here.</textarea>
 			<br><br>
