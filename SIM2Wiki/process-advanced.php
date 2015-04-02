@@ -6,8 +6,6 @@ See http://neojames.me/ for more information
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 	"http://www.w3.org/TR/html4/loose.dtd">
-	
-<?php require 'configuration.php'; ?>
 
 <html lang="en">
 	<head>
@@ -23,16 +21,6 @@ See http://neojames.me/ for more information
 <?php
 	print "<tr style='font-size:" . $_POST['font'] . "px;'><td>";
 	
-	$link = mysql_connect($host, $username, $pass);
-	$db = mysql_select_db($database, $link);
-	$query = "SELECT name FROM " . $prefix . ""; 
-	$result = mysql_query($query) or die(mysql_error());
-	$namesdb = array();    // Create Arrays for
-	$replacesdb = array(); // text manipulation.
-	while($row = mysql_fetch_array($result)){
-		$namesdb[] = $row['name'] . ":";				 // Populate
-		$replacesdb[] = "'''" . $row['name'] . "''':"; // Arrays
-	}
 	
 	$additionalPeopleRaw = isset($_POST['additionalNames'])?$_POST['additionalNames']:"";
 	$additionalPeopleNoColon = explode(", ", $additionalPeopleRaw);
@@ -41,12 +29,9 @@ See http://neojames.me/ for more information
 	$replacesAdditionalPeople = array();
 	$additionalPeople = array();
 	foreach($additionalPeopleNoColon as $key => $value){
-		$additionalPeople[] = $value . ":";
-		$replacesAdditionalPeople[] = "'''" . $value . "''':";
+		$names[] = $value . ":";
+		$replaces[] = "'''" . $value . "''':";
 	}
-	
-	$names = array_merge($namesdb, $additionalPeople);
-	$replaces = array_merge($replacesdb, $replacesAdditionalPeople);
 	
 	$sim = $_POST['sim']; //Fetches SIM from text box.
 	$sim_wrap = wordwrap($sim, 80, "\n"); //Constrains to 80 columns for readability.
