@@ -16,7 +16,7 @@ See http://neojames.me/ for more information
 	<body>
 		<h2>SIM2Wiki - Advanced - Results</h2>
 		<form>
-<textarea cols="80" rows="30" readonly="yes">
+<textarea cols="80" rows="30" readonly="yes" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width:800px;">
 <table width="70%">
 <?php
 	print "<tr style='font-size:" . $_POST['font'] . "px;'><td>";
