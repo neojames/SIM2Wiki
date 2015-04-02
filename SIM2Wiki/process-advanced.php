@@ -37,6 +37,8 @@ See http://neojames.me/ for more information
 	$additionalPeopleRaw = isset($_POST['additionalNames'])?$_POST['additionalNames']:"";
 	$additionalPeopleNoColon = explode("\n", str_replace("\r", "", $_POST['additionalNames']));
 	
+	print_r($additionalPeopleNoColon);
+	
 	foreach ($additionalPeopleNoColon as &$item){
 		$replacesAdditionalPeople[] = $row. ":";
 		$additionalPeople[] = "'''" .$row. "''':";
@@ -44,6 +46,8 @@ See http://neojames.me/ for more information
 
 	$replaces = array_merge($replacesdb, $replacesAdditionalPeople);
 	$names = array_merge($namesdb, $additionalPeople);
+	print_r($replaces);
+	print_r($names);
 	
 	$sim = $_POST['sim']; //Fetches SIM from text box.
 	$sim_wrap = wordwrap($sim, 80, "\n"); //Constrains to 80 columns for readability.
@@ -51,8 +55,6 @@ See http://neojames.me/ for more information
 	
 	$sim_final = str_replace($names, $replaces, $sim_penultimate); // Bold names
 	echo stripslashes($sim_final); //Removes slashes wordwrap() adds example (James\'s).
-	print_r($replaces);
-	print_r($names);
 ?>
 
 </td></tr></table>
