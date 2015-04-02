@@ -45,11 +45,12 @@ See http://neojames.me/ for more information
 		$additionalPeople[] = "'''" . $value . "''':";
 	}
 	
-	print_r($replacesAdditionalPeople);
-	print_r($additionalPeople);
-
 	$replaces = array_merge($replacesdb, $replacesAdditionalPeople);
 	$names = array_merge($namesdb, $additionalPeople);
+	
+	print_r($replaces);
+	print_r($additional);
+	
 	
 	$sim = $_POST['sim']; //Fetches SIM from text box.
 	$sim_wrap = wordwrap($sim, 80, "\n"); //Constrains to 80 columns for readability.
