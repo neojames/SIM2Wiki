@@ -35,7 +35,7 @@ See http://neojames.me/ for more information
 	}
 	
 	$additionalPeopleRaw = isset($_POST['additionalNames'])?$_POST['additionalNames']:"";
-	$additionalPeopleNoColon = explode("\n", str_replace("\r", "", $_POST['additionalNames']));
+	$additionalPeopleNoColon = explode("\n", str_replace("\r", "", $additionalPeopleRaw));
 	
 	print_r($additionalPeopleNoColon);
 	
