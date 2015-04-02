@@ -26,8 +26,8 @@ See http://neojames.me/ for more information
 	$additionalPeopleNoColon = explode(", ", $additionalPeopleRaw);
 	
 	
-	$replacesAdditionalPeople = array();
-	$additionalPeople = array();
+	$names = array();
+	$replaces = array();
 	foreach($additionalPeopleNoColon as $key => $value){
 		$names[] = $value . ":";
 		$replaces[] = "'''" . $value . "''':";
