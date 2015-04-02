@@ -38,8 +38,8 @@ See http://neojames.me/ for more information
 	$additionalPeopleNoColon = explode("\n", str_replace("\r", "", $_POST['additionalNames']));
 	
 	foreach ($additionalPeopleNoColon as &$item){
-		$replacesAdditionalPeople = $row. ":";
-		$additionalPeople = "'''" .$row. "''':";
+		$replacesAdditionalPeople[] = $row. ":";
+		$additionalPeople[] = "'''" .$row. "''':";
 	}
 
 	$replaces = array_merge($replacesdb, $replacesAdditionalPeople);
