@@ -41,12 +41,12 @@ See http://neojames.me/ for more information
 	$replacesAdditionalPeople = array();
 	$additionalPeople = array();
 	foreach($additionalPeopleNoColon as $key => $value){
-		$replacesAdditionalPeople[] = $value . ":";
-		$additionalPeople[] = "'''" . $value . "''':";
+		$additionalPeople[] = $value . ":";
+		$replacesAdditionalPeople[] = "'''" . $value . "''':";
 	}
 	
-	$replaces = array_merge($replacesdb, $replacesAdditionalPeople);
 	$names = array_merge($namesdb, $additionalPeople);
+	$replaces = array_merge($replacesdb, $replacesAdditionalPeople);
 	
 	print_r($replaces);
 	print_r(names);
