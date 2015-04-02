@@ -40,9 +40,9 @@ See http://neojames.me/ for more information
 	
 	$replacesAdditionalPeople = array();
 	$additionalPeople = array();
-	while($item = $additionalPeopleNoColon){
-		$replacesAdditionalPeople[] = $row[$i] . ":";
-		$additionalPeople[] = "'''" . $row[$i] . "''':";
+	foreach($additionalPeopleNoColon as $key => $value){
+		$replacesAdditionalPeople[] = $item . ":";
+		$additionalPeople[] = "'''" . $item . "''':";
 	}
 	
 	print_r($replacesAdditionalPeople);
