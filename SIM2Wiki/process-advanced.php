@@ -31,7 +31,7 @@ See http://neojames.me/ for more information
 	$replacesdb = array(); // text manipulation.
 	while($row = mysql_fetch_array($result)){
 		$namesdb[] = $row['name'] . ":";				 // Populate
-		$replaces[] = "'''" . $row['name'] . "''':"; // Arrays
+		$replacesdb[] = "'''" . $row['name'] . "''':"; // Arrays
 	}
 	
 	$additionalPeopleRaw = isset($_POST['additionalNames'])?$_POST['additionalNames']:"";
