@@ -40,9 +40,9 @@ See http://neojames.me/ for more information
 	
 	$replacesAdditionalPeople = array();
 	$additionalPeople = array();
-	foreach ($additionalPeopleNoColon as &$item){
-		$replacesAdditionalPeople[] = $row . ":";
-		$additionalPeople[] = "'''" . $row . "''':";
+	while($item = $additionalPeopleNoColon){
+		$replacesAdditionalPeople[] = $row[$i] . ":";
+		$additionalPeople[] = "'''" . $row[$i] . "''':";
 	}
 	
 	print_r($replacesAdditionalPeople);
@@ -50,8 +50,6 @@ See http://neojames.me/ for more information
 
 	$replaces = array_merge($replacesdb, $replacesAdditionalPeople);
 	$names = array_merge($namesdb, $additionalPeople);
-	print_r($replacesdb);
-	print_r($names);
 	
 	$sim = $_POST['sim']; //Fetches SIM from text box.
 	$sim_wrap = wordwrap($sim, 80, "\n"); //Constrains to 80 columns for readability.
