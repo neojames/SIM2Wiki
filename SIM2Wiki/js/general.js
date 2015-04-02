@@ -31,7 +31,7 @@ function AdditionalPeople(){
 function toggleVisibility(obj){
 	var el = document.getElementById(obj);
 
-	if(el.style.display != 'none') {
+	if(el.style.display != 'block') {
 		el.style.display = 'none';
 	}
 
