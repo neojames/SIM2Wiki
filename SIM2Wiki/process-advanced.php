@@ -37,9 +37,9 @@ See http://neojames.me/ for more information
 	$additionalPeopleRaw = isset($_POST['additionalNames'])?$_POST['additionalNames']:"";
 	$additionalPeopleNoColon = explode("\n", str_replace("\r", "", $_POST['additionalNames']));
 	
-	while($row = $additionalPeopleNoColon){
-		$replacesAdditionalPeople = $namesdb = $row . ":";
-		$additionalPeople = "'''" . $row . "''':";
+	foreach ($additionalPeopleNoColon as &$item){
+		$replacesAdditionalPeople = $row. ":";
+		$additionalPeople = "'''" .$row. "''':";
 	}
 
 	$replaces = array_merge($replacesdb, $replacesAdditionalPeople);
