@@ -22,13 +22,13 @@ See http://neojames.me/ for more information
 	print "<tr style='font-size:" . $_POST['font'] . "px;'><td>";
 	
 	
-	$additionalPeopleRaw = isset($_POST['additionalNames'])?$_POST['additionalNames']:"";
-	$additionalPeopleNoColon = explode(", ", $additionalPeopleRaw);
+	$PeopleRaw = isset($_POST['Names'])?$_POST['Names']:"";
+	$PeopleNoColon = explode(", ", $PeopleRaw);
 	
 	
 	$names = array();
 	$replaces = array();
-	foreach($additionalPeopleNoColon as $key => $value){
+	foreach($PeopleNoColon as $key => $value){
 		$names[] = $value . ":";
 		$replaces[] = "'''" . $value . "''':";
 	}
