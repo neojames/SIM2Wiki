@@ -18,13 +18,13 @@ function OnSubmitForm(){
 			
 function People(){
 	if(document.getElementById('form').operation[0].checked == true){
-		document.getElementById('additionalPeople').style.display = 'block';
+		document.getElementById('People').style.display = 'block';
 }
 				
 	else
 				
 	if(document.getElementById('form').operation[1].checked == true){
-		document.getElementById('additionalPeople').style.display = 'none';
+		document.getElementById('People').style.display = 'none';
 	}
 }
 
