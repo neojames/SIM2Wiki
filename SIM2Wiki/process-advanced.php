@@ -35,12 +35,14 @@ See http://neojames.me/ for more information
 	}
 	
 	$additionalPeopleRaw = isset($_POST['additionalNames'])?$_POST['additionalNames']:"";
-	$additionalPeople = explode("\n", str_replace("\r", "", $_POST['additionalNames']));
+	$additionalPeopleNoColon = explode("\n", str_replace("\r", "", $_POST['additionalNames']));
 	
-	$replacesAdditionalPeople = array_walk($additionalPeople, function(&$item){ "'''" . $item . "''':";});
+	foreach($array as &$row){
+		$replacesAdditionalPeople = $namesdb[] = $row . ":";
+		$additionalPeople[] = "'''" . $row . "''':";
+	}
 
 	$replaces = array_merge($replacesdb, $replacesAdditionalPeople);
-	
 	$names = array_merge($namesdb, $additionalPeople);
 	
 	$sim = $_POST['sim']; //Fetches SIM from text box.
