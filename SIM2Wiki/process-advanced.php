@@ -35,7 +35,7 @@ See http://neojames.me/ for more information
 	}
 	
 	$additionalPeopleRaw = isset($_POST['additionalNames'])?$_POST['additionalNames']:"";
-	$additionalPeopleNoColon = explode("\n", str_replace("\r", "", $additionalPeopleRaw));
+	$additionalPeopleNoColon = explode(", ", $additionalPeopleRaw);
 	
 	
 	$replacesAdditionalPeople = array();
@@ -47,10 +47,6 @@ See http://neojames.me/ for more information
 	
 	$names = array_merge($namesdb, $additionalPeople);
 	$replaces = array_merge($replacesdb, $replacesAdditionalPeople);
-	
-	print_r($replaces);
-	print_r(names);
-	
 	
 	$sim = $_POST['sim']; //Fetches SIM from text box.
 	$sim_wrap = wordwrap($sim, 80, "\n"); //Constrains to 80 columns for readability.

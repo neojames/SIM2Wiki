@@ -32,7 +32,13 @@ See http://neojames.me/ for more information
 			<br><br>
 			<div id="additionalPeople" style="border:1px solid black;width:100%;">
 				<h4>Additional People (Optional)</h4>
-				<p>Here you can provide a list of additional names to be processed. Names should be entred one per line in the format used by your sims, E.G the Discovery-C used to require names to be in caps, so the charicter James should be entred as JAMES. Also, plese don't include the colon (:) otherwise the paraser won't rcongnise it.</p>
+				<p>Here you can provide a list of additional names to be processed. Names should be entred in the format used by your sims, E.G the Discovery-C used to require names to be in caps, so the charicter James should be entred as JAMES. Also, plese don't include the colon (:) otherwise the paraser won't rcongnise it.</p>
+				
+				<h5>Example Input</h5>
+				<div id="hideable">
+					For the charicters <b>James</b>, <b>Aigle Phos</b>, <b>Seff</b>, and <b>Ezri Fax</b> I would enter:
+					<pre>James Phos Ezri Seff</pre>
+				</div>
 				<textarea name="additionalNames" rows="10" cols="80" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width:100%;"></textarea>
 			</div>
 			
