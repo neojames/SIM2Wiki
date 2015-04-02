@@ -37,9 +37,9 @@ See http://neojames.me/ for more information
 	$additionalPeopleRaw = isset($_POST['additionalNames'])?$_POST['additionalNames']:"";
 	$additionalPeopleNoColon = explode("\n", str_replace("\r", "", $_POST['additionalNames']));
 	
-	foreach($array as &$row){
+	foreach($additionalPeopleNoColon as &$row){
 		$replacesAdditionalPeople = $namesdb[] = $row . ":";
-		$additionalPeople[] = "'''" . $row . "''':";
+		$additionalPeople = "'''" . $row . "''':";
 	}
 
 	$replaces = array_merge($replacesdb, $replacesAdditionalPeople);
@@ -51,7 +51,6 @@ See http://neojames.me/ for more information
 	
 	$sim_final = str_replace($names, $replaces, $sim_penultimate); // Bold names
 	echo stripslashes($sim_final); //Removes slashes wordwrap() adds example (James\'s).
-	print_r($replaces);
 ?>
 
 </td></tr></table>
