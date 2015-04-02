@@ -27,7 +27,21 @@ function AdditionalPeople(){
 		document.getElementById('additionalPeople').style.display = 'none';
 	}
 }
-			
+
+function toggleVisibility(obj){
+	var el = document.getElementById(obj);
+
+	if(el.style.display != 'none') {
+		el.style.display = 'none';
+	}
+
+	else{
+		el.style.display = '';
+	}
+}
+	
+//Load schedular	
+		
 if(window.addEventListener) { // Mozilla, Netscape, Firefox
     window.addEventListener('load', AdditionalPeople, false);
 
