@@ -34,7 +34,7 @@ See http://neojames.me/ for more information
 				<h4>Additional People (Optional)</h4>
 				<p>Here you can provide a list of additional names to be processed. Names should be entred in the format used by your sims, E.G the Discovery-C used to require names to be in caps, so the charicter James should be entred as JAMES. Also, plese don't include the colon (:) otherwise the paraser won't rcongnise it.</p>
 				
-				<h5>Example Input <a href onclick="toggleVisibility('hideable');">Show/Hide</a></h5>
+				<h5>Example Input <a href="#" onclick="toggleVisibility('hideable');">Show/Hide</a></h5>
 				<div id="hideable" style="display:none;">
 					For the charicters <b>James</b>, <b>Aigle Phos</b>, <b>Seff</b>, and <b>Ezri Fax</b> I would enter:
 					<pre>James, Phos, Ezri, Seff</pre>
