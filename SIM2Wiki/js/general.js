@@ -36,7 +36,7 @@ function toggleVisibility(obj){
 	}
 
 	else{
-		el.style.display = '';
+		el.style.display = 'block';
 	}
 }
 	
