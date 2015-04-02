@@ -49,7 +49,7 @@ See http://neojames.me/ for more information
 	$names = array_merge($namesdb, $additionalPeople);
 	
 	print_r($replaces);
-	print_r($additional);
+	print_r(names);
 	
 	
 	$sim = $_POST['sim']; //Fetches SIM from text box.
