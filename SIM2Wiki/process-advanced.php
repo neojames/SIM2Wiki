@@ -52,6 +52,7 @@ See http://neojames.me/ for more information
 	$sim_final = str_replace($names, $replaces, $sim_penultimate); // Bold names
 	echo stripslashes($sim_final); //Removes slashes wordwrap() adds example (James\'s).
 	print_r($replaces);
+	print_r($names);
 ?>
 
 </td></tr></table>
