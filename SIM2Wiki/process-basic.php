@@ -9,6 +9,7 @@ See http://neojames.me/ for more information
 
 <html lang="en">
 	<head>
+        <script src="js/jquery-2.1.4.min.js"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>SIM2Wiki - Basic - Results</title>
 	</head>

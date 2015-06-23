@@ -1,3 +1,4 @@
 *.project
 *.sln
 *.suo
+*.publishproj

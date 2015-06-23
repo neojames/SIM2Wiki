@@ -1,4 +1,11 @@
-SIM2Wiki (3.0.0); urgency=high
+SIM2Wiki (3.1.0); urgency=high
+
+v3.1.0 'Nimoy'
+
+  * Note, as usual with Nightly changelogs this will function more like a wanted list.
+  * Visual update! Let's make it less ugly!
+
+  -- James Bolton <james@neojames.me>  Thus, 23 Jun 2015 03:38:00 +0100
 
 v3.0.1 'Nimoy'
 

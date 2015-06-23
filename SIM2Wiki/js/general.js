@@ -28,17 +28,23 @@ function People(){
 	}
 }
 
-function toggleVisibility(obj){
-	var el = document.getElementById(obj);
+$(document).ready(function(){
+    $('.toggleVisibility').click(function () {
+        $($(this).data('target')).toggle();
+    });
+});
 
-	if(el.style.display == 'block') {
-		el.style.display = 'none';
-	}
+//function toggleVisibility(obj){
+//	var el = document.getElementById(obj);
 
-	else{
-		el.style.display = 'block';
-	}
-}
+//	if(el.style.display == 'block') {
+//		el.style.display = 'none';
+//	}
+
+//	else{
+//		el.style.display = 'block';
+//	}
+//}
 	
 //Load schedular	
 		
