@@ -3,7 +3,7 @@
 //See http://neojames.me/ for more information
 			
 $(document).ready(function(){
-    $('.toggleVisibility').click(function () {
-        $($(this).data('target')).toggle('slow');
-    });
+	$('.toggleVisibility').click(function () {
+		$($(this).data('target')).toggle('slow');
+	});
 });
