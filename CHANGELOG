@@ -1,5 +1,11 @@
 SIM2Wiki (3.0.0); urgency=high
 
+v3.0.1 'Nimoy'
+
+  * Hotpach to fix version readout. Wouldn't be a release without one bug :p
+  
+ -- James Bolton <james@neojames.me>  Thus, 02 Apr 2015 03:46:00 +0100
+
 v3.0.0 'Nimoy'
 
   * Blows off dust.
@@ -7,7 +13,7 @@ v3.0.0 'Nimoy'
   * Additional People feature added.
   * Database features removed, it was too cumbersome and generally uneccasary.
   
- -- James Bolton <james@neojames.me>  Tues, 12 Jul 2012 20:05:00 +0100
+ -- James Bolton <james@neojames.me>  Thus, 02 Apr 2015 03:27:00 +0100
 
 SIM2Wiki (2.9.0); urgency=high
 
