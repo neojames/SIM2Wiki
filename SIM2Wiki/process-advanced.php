@@ -1,11 +1,10 @@
+<!DOCTYPE html>
+
 <!--
 SIM2Wiki by James Bolton.
 Distrubuted under the LGPL
 See http://neojames.me/ for more information
 -->
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-	"http://www.w3.org/TR/html4/loose.dtd">
 
 <html lang="en">
 	<head>
