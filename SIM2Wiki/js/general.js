@@ -15,6 +15,12 @@ $(document).ready(function(){
 		$($(this).data('target')).slideFadeToggle('slow');
 	});
 
+	$('textarea#input').focus(function () {
+		if ($(this).val() == "Enter SIM here.") {
+			$(this).val("");
+		}
+	});
+
 	$('input[type=submit], button, input[type=button]').button();
 	$('.radioSet').buttonset();
 	$('#font').spinner({

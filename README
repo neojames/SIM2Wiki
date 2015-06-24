@@ -1,3 +1,6 @@
 Upload the contents of the SIM2Wiki to a webserver running PHP (tested on Apache 2.4.6 and PHP 5.5.3) and visit the URL in your browser. No additional libraries outside what is already provided by most distributions are required.
 
-SIM2Wiki is likely to work with PHP 5.1 >, however for security reasons unrelated to SIM2Wiki it is recomended that a newer version is used.
+SIM2Wiki is likely to work with PHP 5.1 >, however for security reasons unrelated to SIM2Wiki it is recommended that a newer version is used.
+
+You should be able to change the look of SIM2Wiki by replacing theme files in 'theme' with any valid jQuery theme. I've tested it against all of the official ones, however I cannot guarantee compatibility with any third party ones.
+That said, it's pretty likely they will work!

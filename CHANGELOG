@@ -2,10 +2,11 @@ SIM2Wiki (3.1.0); urgency=high
 
 v3.1.0 'Nimoy'
 
-  * Note, as usual with Nightly changelogs this will function more like a wanted list.
   * Visual update! Let's make it less ugly!
+  * Adopted jQuery & jQuery UI to make theming simpler.
+  * Massive visual update.
 
-  -- James Bolton <james@neojames.me>  Thus, 23 Jun 2015 03:38:00 +0100
+  -- James Bolton <james@neojames.me>  Thus, 24 Jun 2015 1:00:00 +0100
 
 v3.0.1 'Nimoy'
 
@@ -18,7 +19,7 @@ v3.0.0 'Nimoy'
   * Blows off dust.
   * Redesigned Interface.
   * Additional People feature added.
-  * Database features removed, it was too cumbersome and generally uneccasary.
+  * Database features removed, it was too cumbersome and generally unnecessary.
   
  -- James Bolton <james@neojames.me>  Thus, 02 Apr 2015 03:27:00 +0100
 

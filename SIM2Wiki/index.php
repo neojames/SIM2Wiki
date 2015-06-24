@@ -31,7 +31,7 @@ See http://neojames.me/ for more information
 			</div>
 			<br><br>
 			<div class="ui-widget ui-corner-all ui-helper-reset">
-				<textarea name="sim" rows="30" cols="80" class="ui-widget-content" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box; box-sizing: border-box; width:100%;">Enter SIM here.</textarea>
+				<textarea id="input" name="sim" rows="30" cols="80" class="ui-widget-content" style="-webkit-box-sizing: border-box;-moz-box-sizing: border-box; box-sizing: border-box; width:100%;">Enter SIM here.</textarea>
 			</div>
 			<div id="People" class="ui-widget ui-corner-all ui-helper-reset">
 				<p class="ui-widget-header ui-corner-all">People</p>
