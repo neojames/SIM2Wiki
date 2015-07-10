@@ -11,8 +11,7 @@ matrix:
   allow_failures:
     - php: hhvm
 
-#Just check HTML validation for now
+#Do nothing for now until i write the tests in nightly
 
-install:
- - "pip install html5validator"
-script: "html5validator"
+before_script: composer install
+script: exit 1
