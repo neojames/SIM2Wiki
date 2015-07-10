@@ -13,4 +13,4 @@ matrix:
 
 #Do nothing for now until i write the tests in nightly
 
-script: exit 1
+script: exit 0
