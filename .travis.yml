@@ -13,5 +13,4 @@ matrix:
 
 #Do nothing for now until i write the tests in nightly
 
-before_script: composer install
 script: exit 1
