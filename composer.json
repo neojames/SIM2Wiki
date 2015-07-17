@@ -1,0 +1,18 @@
+{
+    "description": "SIM2Wiki is a simple tool to format SIMs as produced by the Role Play group UFOP:Starbase 118, to a format usable on MediaWiki.",
+    "name": "sim2wiki/sim2wiki",
+    "license": "LGPL-3.0",
+    "keywords": [ "PHP", "MediaWiki", "Tool", "Converter", "RP" ],
+    "homepage": "http://neojames.github.io/SIM2Wiki/",
+    "authors": [
+            {
+                "name": "James Bolton",
+                "email": "james@neojames.me",
+                "homepage": "https://neojames.me",
+                "role": "Developer"
+            }
+        ],
+	"require": {
+		"php": ">=5.2.4"
+	},
+}
