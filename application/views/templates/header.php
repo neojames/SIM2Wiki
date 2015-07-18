@@ -26,6 +26,6 @@
 		<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
 		<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 		<link rel="manifest" href="/manifest.json">
-		<meta name="msapplication-TileColor" content="#b91d47">
+		<meta name="msapplication-TileColor" content="#6F112A">
 		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
-		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#6F112A">
