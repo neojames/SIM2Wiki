@@ -7,7 +7,7 @@ SIM2Wiki is a simple tool to format SIMs as produced by the Role Play group UFOP
 
 PHP version 5.4 or newer is recommended.
 
-It should work on 5.2.4 as well, but we strongly advise you NOT to run such old versions of PHP, because of potential security and performance issues, as well as missing features.
+It should work on 5.2.4 as well, but we strongly advise you NOT to run such old versions of PHP, because of potential security and performance issues, as well as missing features. It should also be noted that we *do not* test on versions of PHP less then 5.3.
 
 ##Usage
 
