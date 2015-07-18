@@ -11,7 +11,7 @@ It should work on 5.2.4 as well, but we strongly advise you NOT to run such old 
 
 ##Usage
 
-Upload the contents of the SIM2Wiki to a webserver running PHP (tested on Apache 2.4.6 and PHP 5.5.3) and change `$config['base_url'] = '';` to the adress if your site in `application/config/config.php`. No additional libraries outside what is already provided by most distributions are required.
+Upload the contents of the SIM2Wiki to a webserver running PHP (tested on Apache 2.4.6 and PHP 5.5.3) and change `$config['base_url'] = '';` to the adress of your site in `application/config/config.php`. No additional libraries outside what is already provided by most distributions are required.
 
 ###Composer
 
