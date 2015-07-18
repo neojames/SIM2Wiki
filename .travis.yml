@@ -19,6 +19,10 @@ matrix:
 env:
     - CI_VERSION=3.0.0
 
+# update build enviroment
+before_install:
+    composer self-update
+
 # install this project on top of it
 install:
     composer install
