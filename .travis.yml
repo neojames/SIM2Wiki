@@ -1,18 +1,28 @@
 language: php
 php:
-  - 5.4
-  - 5.5
-  - 5.6
-  - hhvm
+	- 5.1
+	- 5.2
+	- 5.3
+	- 5.4
+	- 5.5
+	- 5.6
+	- hhvm
+
+matrix:
+	allow_failures:
+		- 5.1
+		- 5.2
+		- 5.3
+	fast_finish: true
 
 env:
-  - CI_VERSION=3.0.0
+	- CI_VERSION=3.0.0
 
 # install this project on top of it
 install:
-  composer install
+	composer install
 
 # run multiple test commands
 script:
-  - phpunit                  #default test command
-  - phpunit -c phpunit.xml   #custom test command to make sure CLI args don't break the test
+	- phpunit                  #default test command
+	- phpunit -c phpunit.xml   #custom test command to make sure CLI args don't break the test
