@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/neojames/SIM2Wiki.svg?branch=rewrite)](https://travis-ci.org/neojames/SIM2Wiki)
 #SIM2Wiki
 
 SIM2Wiki is a simple tool to format SIMs as produced by the Role Play group UFOP:Starbase 118, to a format usable on MediaWiki.
