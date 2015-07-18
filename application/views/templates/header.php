@@ -29,3 +29,4 @@
 		<meta name="msapplication-TileColor" content="#6F112A">
 		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 		<meta name="theme-color" content="#6F112A">
+		<meta name="application-name" content="SIM2Wiki"/>
