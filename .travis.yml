@@ -21,7 +21,7 @@ env:
 
 # update build enviroment
 before_install:
-    composer self-update
+    php /home/travis/.phpenv/versions/5.5/bin/composer self-update
 
 # install this project on top of it
 install:
