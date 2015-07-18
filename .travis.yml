@@ -10,9 +10,10 @@ php:
 
 matrix:
 	allow_failures:
-		- 5.1
-		- 5.2
-		- 5.3
+		- php: 5.1
+		- php: 5.2
+		- php: 5.3
+		- php: hhvm
 	fast_finish: true
 
 env:
