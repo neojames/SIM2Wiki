@@ -11,11 +11,11 @@ It should work on 5.2.4 as well, but we strongly advise you NOT to run such old 
 
 ##Usage
 
-Upload the contents of the SIM2Wiki to a webserver running PHP (tested on Apache 2.4.6 and PHP 5.5.3) and change `$config['base_url'] = '';` to the adress of your site in `application/config/config.php`. No additional libraries outside what is already provided by most distributions are required.
+Simply upload the contents of the SIM2Wiki to a webserver running PHP (tested on Apache 2.4.6 and PHP 5.5.3)! No additional libraries outside what is already provided by most distributions are curentlly required.
 
 ###Composer
 
-For versions of SIM2Wiki past v4.0.0 'Scotty' we now support installation via [Composer](https://getcomposer.org/). For now it won't do much more than check that your enviroment is sane, however in the furture if we require any external libraries it will manage, download, and setup them for you!
+For versions of SIM2Wiki past v4.0.0 'Scotty' we now support configuration via [Composer](https://getcomposer.org/). For now it won't do much more than check that your enviroment is sane, however in the furture if we require any external libraries it will manage, download, and setup them for you!
 
 To install via composer simply follow the installation instructions for composer, then in the directory in which you have placed SIM2Wiki run:
 
